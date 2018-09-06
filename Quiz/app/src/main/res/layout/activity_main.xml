@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which of them is not a language"
+        android:textSize="32sp"
+        android:padding="25sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <CheckBox
+        android:id="@+id/Q1C1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Pascal"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Q1C2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Go"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <CheckBox
+        android:id="@+id/Q1C3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Conda"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <CheckBox
+        android:id="@+id/Q1C4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Rust"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="10sp" />
+    <Button
+        android:id="@+id/Q1Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:text="Submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+    <Button
+        android:id="@+id/Q1Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:text="Next"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

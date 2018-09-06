@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="World’s richest person?"
+        android:textSize="32sp"
+        android:padding="25sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <CheckBox
+        android:id="@+id/Q6C1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Warren Buffet "
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Q6C2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Bill Gates "
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <CheckBox
+        android:id="@+id/Q6C3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text=" Jeff Bezos"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <CheckBox
+        android:id="@+id/Q6C4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Larry page"
+        android:layout_marginLeft="70sp"
+        android:padding="15sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+    <Button
+        android:id="@+id/Q6Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:text="Submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+    <Button
+        android:id="@+id/Q6Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:text="Next"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:gravity="center"/>
+</LinearLayout>
